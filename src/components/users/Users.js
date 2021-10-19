@@ -3,7 +3,7 @@ import UserItem from "./UserItem";
 import Spinner from "../layout/Spinner";
 import GithubContext from "../../context/github/githubContext";
 
-const Users = ({ loading, users }) => {
+const Users = () => {
   const githubContext = useContext(GithubContext);
 
   if (githubContext.loading) {
